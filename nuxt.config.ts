@@ -2,6 +2,6 @@
 export default defineNuxtConfig({
   extends: ['github:warflash/nuxt-layers-base'],
   alias: {
-    '@nuxt/kit': '@nuxt/kit',
+    '@nuxt/kit': require.resolve('@nuxt/kit/dist/index.mjs'),
   },
 });
